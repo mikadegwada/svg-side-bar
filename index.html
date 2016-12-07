@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#93BD1B">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#93BD1B">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blue-translucent">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <!--<?= $this->Html->meta('icon') ?>
+
+    <?= $this->Html->css('icon') ?>
+    <?= $this->Html->css('materialize') ?>
+    <?= $this->Html->css('animate') ?>
+    <?= $this->Html->css('posts') ?>
+    <?= $this->Html->css('catalogue') ?>
+    <?= $this->Html->css('sequence') ?>
+    <?= $this->Html->css('style') ?>
+    <?= $this->Html->css('responsive') ?>-->
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+   
+</head>
+<body>
+
+
+
+
+
+<div class="scrolltop">
+  <a href="#home"><i class="small material-icons black-text">present_to_all</i></a>
+</div>
+
+<div  class="navbar-fixed ">
+  <nav class="no-box-shadow" role="navigation" id="menu">
+    <div class="nav-wrapper ">
+
+
+<!--            HAMBURGER MENU                   -->
+
+
+  <a href="#" data-activates="side-left" class="button-collapse hamburg show-on-large hide-on-small-only">
+  <div id="hamburger" class="hamburglar">
+
+      <div class="burger-icon">
+        <div class="burger-container">
+          <span class="burger-bun-top"></span>
+          <span class="burger-filling"></span>
+          <span class="burger-bun-bot"></span>
+        </div>
+      </div>
+      
+      <!-- svg ring containter -->
+      <div class="burger-ring">
+        <svg class="svg-ring">
+          <path class="path" fill="none"  stroke-miterlimit="10"  d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+        </svg>
+      </div>
+      <!-- the masked path that animates the fill to the ring -->
+      
+      <svg width="0" height="0">
+         <mask id="mask">
+      <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000" stroke-miterlimit="10" stroke-width="6" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+         </mask>
+       </svg>
+      <div class="path-burger">
+        <div class="animate-path">
+          <div class="path-rotation"></div>
+        </div>
+      </div>
+        
+  </div>
+  </a>
+<!--           END HAMBURGER MENU                   -->
+
+      <a href="#" data-activates="side-left" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
+      <div id="fake"></div>
+      <a href="#" class="brand-logo left hide-on-small-only"><img class="logo" src="img/logo_H128.png" alt=""></a>
+       <ul class="right hide-on-med-and-down search-nav">    
+          <form>
+            <div class="input-field">
+              <input id="search" type="search" required>
+              <label for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+       
+      </ul>
+      <!-- MED AND LARGE  -->
+      <ul class="left after_logo hide-on-small-only menu-nav tabs">
+        <li class="tab"><a href="#home">Home</a></li>
+        <li class="tab"><a href="#blog">Blog</a></li>
+        <li class="tab"><a href="#catalogue">Catalogue</a></li>
+        <li class="tab"><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- SMALL  -->
+      <ul class="right hide-on-med-and-up tabs mobile">
+        <li class="tab"><a href="#home"><i class="material-icons">home</i></a></li>
+        <li class="tab"><a href="#blog"><i class="material-icons">assignment</i></a></li>
+        <li class="tab"><a href="#catalogue"><i class="material-icons">work</i></a></li>
+        <li class="tab"><a href="#contact"><i class="material-icons">email</i></a></li>
+      </ul>
+      <ul id="side-left" class="side-nav">
+        <div class="scrollnav">
+          <div class="inside_nav">
+            
+            <li><div class="divider"></div></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#catalogue">Catalogue</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+        </div>
+      <li class="sv" data-morph-open="m 1.375,3.375 c 0,267.33333 0,534.66667 0,802 134.66667,0 269.33333,0 404,0 222.33432,-159.87762 762.6236,-426.053 0,-804 -134.66667,0 -269.33333,0 -404,0 l 0,1 z" data-morph-close="m 1.375,3.375 c 0,267.33333 0,534.66667 0,802 134.66667,0 191.23823,-8.68458 322.64407,-6.77966 C 414.32682,782.81612 735.87674,355.02323 317.2394,1.375 c -134.66667,0 -181.19773,0 -315.8644,0 l 0,1 z">
+          <svg width="100%" height="100%" viewBox="0 50 800 750" preserveAspectRatio="none">
+            <path fill="none" d="m 1.375,3.375 c 0,267.33333 0,534.66667 0,802 134.66667,0 269.33333,0 404,0 0,-268 0,-536 0,-804 -134.66667,0 -269.33333,0 -404,0 l 0,1 0,1 z"/>
+          </svg>
+        </li>
+
+    </ul>
+    </div>
+    <div class="liner_container">
+      <div class="liner "></div>
+    </div>
+    <div class="progress progress__header pause" ><div class="indeterminate"></div></div>
+  </nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+  <footer class=" light-blue lighten-1 animated fadeIn">
+    
+      <div class="container">
+      Made by <a  href="/">Mikadegwada</a>
+      </div>
+   
+  </footer>
+
+
+
+
+  
+
+
+  <!--  <?= $this->Html->script('jquery.js') ?>
+    <?= $this->Html->script('materialize.js') ?>
+    <?= $this->Html->script('tabs.js') ?>   
+    <?= $this->Html->script('classie.js') ?>
+    <?= $this->Html->script('snapsvg.js') ?>
+    <?= $this->Html->script('function.js') ?>
+    <?= $this->Html->script('sequence/hammer.min.js') ?>
+    <?= $this->Html->script('sequence/sequence.min.js') ?>
+    <?= $this->Html->script('jquery.filterizr.js') ?>
+
+    <?= $this->Html->script('app') ?>
+
+    <?= $this->Html->script('svgside') ?>-->
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/snapsvg.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/svgside.js"></script>
+   
+
+      
+
+</body>
+</html>

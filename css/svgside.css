@@ -1,0 +1,47 @@
+.side-nav{
+    overflow: visible;
+    z-index: 1;
+    background-color:red;
+  }
+
+.side-nav li {
+  transform: translateX(-30px);
+  transition: transform 1s ease-in-out;
+}
+
+
+
+
+  .sv {
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: 50px;
+    width: 300px;
+    height: 100%;
+   
+
+  }
+  .sv svg{
+    height: 100%;
+  }
+
+  .sv svg path {
+  fill: red;
+  /*stroke-width: 100px;*/
+}
+
+a.button-collapse{
+  z-index: 2;
+}
+#sidenav-overlay {
+    z-index: 0;
+  }
+
+.inside_nav {
+  position: relative;
+  margin-top: 50px;
+  padding: 10px;
+  z-index: 1;
+  color:white;
+}
